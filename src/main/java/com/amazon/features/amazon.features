@@ -1,0 +1,16 @@
+Feature: Amazon Test flow
+
+Scenario: Amazon Test order validation
+Given User loads amazon site
+
+When User is on amazon landing page
+Then User verifies amazon link is correct
+Then user search for a product
+Then user verifies whether product are displayed
+Then user clicks on the product
+Then user add the product to the cart
+Then user click on cart and verifies whether item is displayed
+Then Proceed to Check out
+Then enter username and password
+| 9052219955 |AmazonAbhi79|
+And Verify recipient name
